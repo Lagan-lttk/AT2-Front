@@ -1,0 +1,33 @@
+.master {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.h-logo img{
+    height: 20vh;
+    padding-left: 5vh;
+}
+
+.h-itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+    gap: 15vh;
+}
+
+.a-header {
+    margin-left: 2vh;
+    text-decoration: none;
+    font-size: 3.3vh;
+    color: black; 
+}
+
+.a-header:hover {
+    color: #007bff;
+}
