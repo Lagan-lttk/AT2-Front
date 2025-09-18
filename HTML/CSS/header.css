@@ -1,3 +1,8 @@
+header {
+    border-bottom: 2px solid #236AA8;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
 .master {
     display: flex;
     justify-content: flex-start;
@@ -18,7 +23,7 @@
     position: absolute;
     left: 50%; 
     transform: translateX(-50%);
-    gap: 15vh;
+    gap: 5vh;
 }
 
 .a-header {
@@ -26,8 +31,9 @@
     text-decoration: none;
     font-size: 3.3vh;
     color: black; 
+    
 }
 
 .a-header:hover {
-    color: #007bff;
+    color: #349BF6;
 }
